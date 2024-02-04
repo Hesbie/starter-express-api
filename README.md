@@ -1,11 +1,4 @@
-# starter-express-api
+# NodeJS, MongoDB, Express Banking-API
+Banking API built with NodeJS, MongoDB, Express (backend). Frontend App built with Flutter is avaible here => https://github.com/ogbodotg/Veegil-Bank-Mobile-App
 
-This is the simplest possible nodejs api using express that responds to any request with: 
-```
-Yo!
-```
-
-### Deploy it in 7 seconds: 
-
-[![Deploy to Cyclic](https://deploy.cyclic.app/button.svg)](https://deploy.cyclic.app/)
-
+APIs for Creating Account, Login, Transfer Money, Withdraw Money, see Balance and view Transaction History.
