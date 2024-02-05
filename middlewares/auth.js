@@ -18,7 +18,7 @@ function authenticateToken(req, res, next) {
 
 function generateAccessToken(phoneNumber) {
   return jwt.sign({ data: phoneNumber }, "" + process.env.JWT_SECRETKey, {
-    expiresIn: 315600000,
+    expiresIn: "315600000h",
   });
 }
 
